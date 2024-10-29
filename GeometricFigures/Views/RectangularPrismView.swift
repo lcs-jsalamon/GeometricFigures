@@ -47,7 +47,11 @@ struct RectangularPrismView: View {
             )
 //            label (show the current slider value)
             Text("Height is: \(currentRectangularPrim.height.formatted())")
-
+            
+//            label (show the surface area)
+            Text("Surface Area is:\(currentRectangularPrim.surfaceArea.formatted())")
+//            label (show the volume)
+            Text("Volume is:\(currentRectangularPrim.volume.formatted())")
         }
     }
 }
