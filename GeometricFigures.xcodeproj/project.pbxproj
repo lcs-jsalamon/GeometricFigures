@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26555DD52CD1366E00D5E3D9 /* RectangularPrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26555DD42CD1366E00D5E3D9 /* RectangularPrismView.swift */; };
+		26555DD82CD1372100D5E3D9 /* RectangularPrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26555DD72CD1372100D5E3D9 /* RectangularPrism.swift */; };
 		26D0BC172CCFCD7500EBB222 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0BC162CCFCD7500EBB222 /* GeometricFiguresApp.swift */; };
-		26D0BC192CCFCD7500EBB222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0BC182CCFCD7500EBB222 /* ContentView.swift */; };
 		26D0BC1B2CCFCD7C00EBB222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D0BC1A2CCFCD7C00EBB222 /* Assets.xcassets */; };
 		26D0BC1E2CCFCD7C00EBB222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D0BC1D2CCFCD7C00EBB222 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26555DD42CD1366E00D5E3D9 /* RectangularPrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularPrismView.swift; sourceTree = "<group>"; };
+		26555DD72CD1372100D5E3D9 /* RectangularPrism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangularPrism.swift; sourceTree = "<group>"; };
 		26D0BC132CCFCD7500EBB222 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D0BC162CCFCD7500EBB222 /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
-		26D0BC182CCFCD7500EBB222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26D0BC1A2CCFCD7C00EBB222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D0BC1D2CCFCD7C00EBB222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26555DD32CD1361A00D5E3D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26555DD42CD1366E00D5E3D9 /* RectangularPrismView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26555DD62CD1370200D5E3D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26555DD72CD1372100D5E3D9 /* RectangularPrism.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		26D0BC0A2CCFCD7500EBB222 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +69,8 @@
 		26D0BC152CCFCD7500EBB222 /* GeometricFigures */ = {
 			isa = PBXGroup;
 			children = (
-				26D0BC162CCFCD7500EBB222 /* GeometricFiguresApp.swift */,
-				26D0BC182CCFCD7500EBB222 /* ContentView.swift */,
-				26D0BC1A2CCFCD7C00EBB222 /* Assets.xcassets */,
+				26555DD62CD1370200D5E3D9 /* Model */,
+				26555DD32CD1361A00D5E3D9 /* Views */,
 				26D0BC1C2CCFCD7C00EBB222 /* Preview Content */,
 			);
 			path = GeometricFigures;
@@ -62,7 +79,9 @@
 		26D0BC1C2CCFCD7C00EBB222 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				26D0BC1A2CCFCD7C00EBB222 /* Assets.xcassets */,
 				26D0BC1D2CCFCD7C00EBB222 /* Preview Assets.xcassets */,
+				26D0BC162CCFCD7500EBB222 /* GeometricFiguresApp.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,8 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D0BC192CCFCD7500EBB222 /* ContentView.swift in Sources */,
 				26D0BC172CCFCD7500EBB222 /* GeometricFiguresApp.swift in Sources */,
+				26555DD52CD1366E00D5E3D9 /* RectangularPrismView.swift in Sources */,
+				26555DD82CD1372100D5E3D9 /* RectangularPrism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
